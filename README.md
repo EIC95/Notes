@@ -20,7 +20,7 @@ The notes are organized by programming language and cover the following aspects:
 
 ## Contribution
 
-If you wish to contribute to these notes, feel free to submit pull requests. Your additions and corrections are welcome to help improve the quality and accuracy of the information.
+If you wish to contribute to these notes, feel free to contact me. Your additions and corrections are welcome to help improve the quality and accuracy of the information.
 
 ## Disclaimer
 
