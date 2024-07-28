@@ -20,7 +20,7 @@ Les notes sont organisées par langage de programmation et couvrent les aspects 
 
 ## Contribution
 
-Si vous souhaitez contribuer à ces notes, n'hésitez pas à soumettre des pull requests. Vos ajouts et corrections sont les bienvenus pour améliorer la qualité et la précision des informations.
+Si vous souhaitez contribuer à ces notes, n'hésitez pas à me contacter. Vos ajouts et corrections sont les bienvenus pour améliorer la qualité et la précision des informations.
 
 ## Avertissement
 
