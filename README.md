@@ -25,7 +25,7 @@ If you wish to contribute to these notes, feel free to submit pull requests. You
 ## Disclaimer
 
 - These notes are intended to provide a quick understanding of the basics of programming languages. For more in-depth knowledge, it is recommended to consult the official documentation and follow more detailed courses.
--Feel free to share these notes, but please remember to give proper credit where it is due. The content is based on my learning and experiences, and any direct usage of this content should include appropriate acknowledgment.
+- Feel free to share these notes, but please remember to give proper credit where it is due. The content is based on my learning and experiences, and any direct usage of this content should include appropriate acknowledgment.
 
 ## Contact
 
