@@ -1,4 +1,4 @@
-# Les variables superglobales en PHP
+# Variables superglobales en PHP
 
 En PHP, certaines variables prédéfinies sont des **superglobales**, ce qui signifie qu'elles sont accessibles partout dans le script, quelle que soit leur portée. Elles sont automatiquement disponibles dans toutes les fonctions, classes, et fichiers.
 

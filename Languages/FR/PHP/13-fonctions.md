@@ -1,4 +1,4 @@
-# Les fonctions en PHP
+# Fonctions en PHP
 
 PHP propose plus de 1000 fonctions intégrées, et vous pouvez également créer vos propres fonctions personnalisées. Une déclaration de fonction définie par l'utilisateur commence par le mot-clé `function`, suivi du nom de la fonction. Voici quelques concepts clés liés aux fonctions en PHP.
 

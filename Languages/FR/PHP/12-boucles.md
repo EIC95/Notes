@@ -1,4 +1,4 @@
-# Les boucles en PHP
+# Boucles en PHP
 
 Les boucles en PHP permettent de répéter un bloc de code plusieurs fois selon certaines conditions.
 

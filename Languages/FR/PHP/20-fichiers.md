@@ -1,4 +1,4 @@
-# La gestion des fichiers en PHP
+# Gestion des fichiers en PHP
 
 La gestion des fichiers est une composante essentielle dans le développement d'applications web, notamment pour des tâches telles que la lecture, l'écriture, la mise à jour ou l'enregistrement de données. PHP propose une gamme complète de fonctions pour manipuler les fichiers, permettant aux développeurs d'implémenter des fonctionnalités complexes de manière simple.
 

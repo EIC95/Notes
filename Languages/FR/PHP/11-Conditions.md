@@ -1,4 +1,4 @@
-# Les conditions en PHP
+# Conditions en PHP
 
 ## Instruction `if`
 

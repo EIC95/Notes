@@ -1,4 +1,4 @@
-# L'inclusion de fichiers en PHP
+# Inclusion de fichiers en PHP
 
 L'inclusion de fichiers en PHP est une technique puissante pour réutiliser du code et organiser les projets en modules distincts. Cela permet de centraliser les fichiers communs comme les en-têtes, les pieds de page ou les fonctions dans un seul fichier, puis de les inclure dans plusieurs pages, simplifiant ainsi la maintenance et l'évolution du code.
 

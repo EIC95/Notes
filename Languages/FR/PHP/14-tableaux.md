@@ -1,4 +1,4 @@
-# Les tableaux en PHP
+# Tableaux en PHP
 
 En PHP, vous pouvez créer des tableaux à l'aide de la fonction `array()` ou en utilisant une syntaxe plus courte avec les crochets `[]`.
 
