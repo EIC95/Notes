@@ -1,80 +1,76 @@
-# Structure Conditionnelles en PHP
+# Les conditions en PHP
 
-## if
+## Instruction `if`
 
-La structure de base pour une instruction `if` en PHP est la suivante :
+L'instruction `if` permet d'exécuter un bloc de code si une condition est vraie.
 
 ```php
 <?php
-$age = 20;
-if ($age >= 18) {
-    echo "Vous êtes majeur.";
+if ($a > $b) {
+    echo "$a est plus grand que $b";
 }
 ?>
 ```
 
-## if...else
+## Instruction `if...else`
 
-La structure de base pour une instruction `if...else` en PHP est la suivante :
+L'instruction `if...else` permet d'exécuter un bloc de code si la condition est vraie, sinon elle exécute un autre bloc de code.
 
 ```php
 <?php
-$age = 16;
-if ($age >= 18) {
-    echo "Vous êtes majeur.";
+if ($a > $b) {
+    echo "$a est plus grand que $b";
 } else {
-    echo "Vous êtes mineur.";
+    echo "$a n'est pas plus grand que $b";
 }
 ?>
-
 ```
 
-## else if
+## Instruction `else if`
 
-La structure de base pour une instruction `else if` en PHP est la suivante :
+L'instruction `else if` permet de tester plusieurs conditions de manière séquentielle.
 
 ```php
 <?php
-$note = 75;
-if ($note >= 90) {
-    echo "Excellent";
-} elseif ($note >= 70) {
-    echo "Bon";
+if ($a > $b) {
+    echo "$a est plus grand que $b";
+} elseif ($a == $b) {
+    echo "$a est égal à $b";
 } else {
-    echo "Satisfaisant";
+    echo "$a est plus petit que $b";
 }
 ?>
-
 ```
 
-## switch case
+## Instruction `switch case`
 
-La structure de base pour une instruction `switch` en PHP est la suivante :
+L'instruction `switch` permet de tester une variable contre plusieurs valeurs possibles et d'exécuter le bloc de code correspondant à la valeur trouvée.
 
 ```php
 <?php
-$jour = "Lundi";
-switch ($jour) {
-    case "Lundi":
-        echo "Début de la semaine";
+switch ($fruit) {
+    case 'pomme':
+        echo "C'est une pomme";
         break;
-    case "Vendredi":
-        echo "Fin de la semaine";
+    case 'banane':
+        echo "C'est une banane";
+        break;
+    case 'orange':
+        echo "C'est une orange";
         break;
     default:
-        echo "Jour normal";
+        echo "Fruit inconnu";
 }
 ?>
-
 ```
 
 ## Opérateur ternaire
 
-La structure de base pour une instruction ternaire en PHP est la suivante :
+L'opérateur ternaire est une façon concise d'écrire une instruction `if...else`.
 
 ```php
 <?php
-$age = 18;
-echo ($age >= 18) ? "Adulte" : "Mineur";
+$message = ($a > $b) ? "$a est plus grand que $b" : "$a n'est pas plus grand que $b";
+echo $message;
 ?>
 ```
