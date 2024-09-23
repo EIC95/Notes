@@ -36,6 +36,6 @@ L'indentation est très importante en Python. Contrairement à d'autres langages
 - **Indentation incorrecte** : Un mauvais alignement ou mélange des tabulations et des espaces entraînera une erreur.
 
     ```python
-    if True:
+     if True:
       print("Erreur possible avec l'indentation")
     ```

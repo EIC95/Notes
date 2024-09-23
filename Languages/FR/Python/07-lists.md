@@ -1,4 +1,4 @@
-# Python Lists
+# Les listes en Python
 
 Les **listes** sont l'une des structures de données les plus utilisées en Python. Elles permettent de stocker plusieurs éléments dans une seule variable. Une liste peut contenir des éléments de types différents (nombres, chaînes, booléens, etc.). Les listes sont **mutables**, ce qui signifie que vous pouvez changer leurs éléments après leur création.
 
@@ -16,7 +16,7 @@ Les éléments d'une liste sont accessibles par leur index, en commençant par 0
 print(fruits[0])  # Résultat : "apple"
 ```
 
-## Loop Lists
+## Parcourir une liste
 Il existe plusieurs façons de parcourir les éléments d'une liste. Voici les plus courantes :
 
 ### **Boucle `for`** :
@@ -83,7 +83,7 @@ upper_fruits = [fruit.upper() for fruit in fruits]
 print(upper_fruits)  # Résultat : ['APPLE', 'BANANA', 'CHERRY']
 ```
 
-## Join Lists
+## Fusion de listes
 Il existe plusieurs manières de **fusionner** deux ou plusieurs listes en Python.
 
 ### **Concaténation avec `+`** :
@@ -104,7 +104,7 @@ list1.extend(list2)
 print(list1)  # Résultat : [1, 2, 3, 4, 5, 6]
 ```
 
-## 4. List Methods
+## 4. Les méthodes de liste
 Les listes en Python possèdent de nombreuses méthodes intégrées pour les manipuler. Voici les plus utiles, avec des exemples.
 
 ### **`append()`** :
