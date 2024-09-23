@@ -69,4 +69,4 @@ mon_tripleur = ma_fonction(3)
 
 print(mon_doubleur(11))  # Résultat: 22
 print(mon_tripleur(11))  # Résultat: 33
-```
+```             
