@@ -167,6 +167,20 @@ price = 59
 txt = f"The price is {price:.2f} dollars"
 print(txt)   # Affiche "The price is 59.00 dollars"
 ```
+Voici un tableau avec les types de formatage les plus utiles en Python :
+
+| Type de formatage | Description                                                   |
+|-------------------|---------------------------------------------------------------|
+| `:<`              | Aligne le résultat à gauche (dans l'espace disponible)       |
+| `:>`              | Aligne le résultat à droite (dans l'espace disponible)       |
+| `:^`              | Centre le résultat (dans l'espace disponible)                |
+| `:+`              | Utilise un signe plus pour indiquer les nombres positifs     |
+| `:-`              | Utilise un signe moins pour les valeurs négatives seulement   |
+| `:,`              | Utilise une virgule comme séparateur de milliers              |
+| `:.2f`            | Formate un nombre en virgule fixe avec 2 décimales           |
+| `:%`              | Formate en pourcentage                                        |
+
+Ces formats couvrent les besoins de base pour l'alignement et la présentation des nombres.
 
 ## Caractères d'échappement en Python
 

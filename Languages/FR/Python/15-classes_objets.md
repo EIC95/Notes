@@ -1,3 +1,5 @@
+Bien sûr, voici une version mise à jour de votre texte avec l'explication de `self` avant la fonction `__init__()` :
+
 # Les classes et objets en Python
 
 Python est un langage de programmation orienté objet. Presque tout en Python est un objet, avec ses propriétés et ses méthodes. Une classe est comme un constructeur d'objet, ou un "plan" pour créer des objets.
@@ -24,6 +26,8 @@ print(p1.x)
 
 La fonction `__init__()` est une fonction spéciale qui est appelée automatiquement chaque fois que la classe est utilisée pour créer un nouvel objet. Elle est utilisée pour assigner des valeurs aux propriétés de l'objet ou pour effectuer d'autres opérations nécessaires lors de la création de l'objet.
 
+Le paramètre `self` est une référence à l'instance actuelle de la classe, et est utilisé pour accéder aux variables qui appartiennent à la classe. Il ne doit pas être nommé `self`, vous pouvez l'appeler comme vous le souhaitez, mais il doit être le premier paramètre de toute fonction dans la classe.
+
 Par exemple, pour créer une classe nommée `Personne` avec les propriétés `nom` et `âge`, vous pouvez utiliser le code suivant :
 
 ```python
@@ -36,6 +40,8 @@ p1 = Personne("John", 36)
 print(p1.nom)
 print(p1.age)
 ```
+
+Dans cet exemple, `self` est utilisé pour assigner les valeurs des paramètres `nom` et `âge` aux propriétés `nom` et `âge` de l'objet `p1`.
 
 ## La fonction `__str__()`
 
