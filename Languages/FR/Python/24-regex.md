@@ -48,28 +48,28 @@ Les métacaractères sont des caractères ayant une signification spéciale dans
 
 ### Séquences spéciales
 
-| Caractère | Description                                                             | Exemple    |
-|-----------|-------------------------------------------------------------------------|------------|
+| Caractère | Description                                                              | Exemple    |
+|-----------|--------------------------------------------------------------------------|------------|
 | `\A`      | Correspondance si les caractères sont au début de la chaîne              | `\AThe`    |
 | `\b`      | Correspondance au début ou à la fin d'un mot                             | `\bain`    |
 | `\B`      | Correspondance si les caractères ne sont **pas** au début ou à la fin    | `\Bain`    |
-| `\d`      | Correspondance si la chaîne contient des chiffres (0-9)                 | `\d`       |
-| `\D`      | Correspondance si la chaîne ne contient pas de chiffres                 | `\D`       |
-| `\s`      | Correspondance avec un caractère d'espacement                           | `\s`       |
-| `\S`      | Correspondance si aucun caractère d'espacement                          | `\S`       |
+| `\d`      | Correspondance si la chaîne contient des chiffres (0-9)                  | `\d`       |
+| `\D`      | Correspondance si la chaîne ne contient pas de chiffres                  | `\D`       |
+| `\s`      | Correspondance avec un caractère d'espacement                            | `\s`       |
+| `\S`      | Correspondance si aucun caractère d'espacement                           | `\S`       |
 | `\w`      | Correspondance avec tout caractère alphabétique ou numérique             | `\w`       |
-| `\W`      | Correspondance si aucun caractère alphabétique ou numérique             | `\W`       |
-| `\Z`      | Correspondance si les caractères sont à la fin de la chaîne             | `Spain\Z`  |
+| `\W`      | Correspondance si aucun caractère alphabétique ou numérique              | `\W`       |
+| `\Z`      | Correspondance si les caractères sont à la fin de la chaîne              | `Spain\Z`  |
 
 ### Ensembles
 
-| Ensemble  | Description                                   |
-|-----------|-----------------------------------------------|
-| `[arn]`   | Correspondance si un des caractères est présent (a, r ou n) |
+| Ensemble  | Description                                                        |
+|-----------|--------------------------------------------------------------------|
+| `[arn]`   | Correspondance si un des caractères est présent (a, r ou n)        |
 | `[a-n]`   | Correspondance pour n'importe quelle lettre minuscule entre a et n |
-| `[^arn]`  | Correspondance pour tous les caractères sauf a, r, et n |
-| `[0-9]`   | Correspondance pour tout chiffre entre 0 et 9 |
-| `[a-zA-Z]`| Correspondance pour toute lettre (minuscule ou majuscule) |
+| `[^arn]`  | Correspondance pour tous les caractères sauf a, r, et n            |
+| `[0-9]`   | Correspondance pour tout chiffre entre 0 et 9                      |
+| `[a-zA-Z]`| Correspondance pour toute lettre (minuscule ou majuscule)          |
 
 ### Fonction `findall()`
 Retourne une liste de toutes les correspondances.

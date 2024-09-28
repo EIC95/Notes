@@ -3,10 +3,27 @@
 Les **listes** sont l'une des structures de données les plus utilisées en Python. Elles permettent de stocker plusieurs éléments dans une seule variable. Une liste peut contenir des éléments de types différents (nombres, chaînes, booléens, etc.). Les listes sont **mutables**, ce qui signifie que vous pouvez changer leurs éléments après leur création.
 
 ### **Déclaration d'une liste** :
-Une liste se déclare en plaçant ses éléments entre crochets `[]` et en les séparant par des virgules.
+Une liste se déclare généralement en plaçant ses éléments entre crochets `[]` et en les séparant par des virgules.
 
 ```python
-fruits = ["apple", "banana", "cherry"]
+pays = ["Sénégal", "France", "Canada"]
+```
+Il existe également d'autres moyens de déclarer une liste en Python:
+* Avec le constructeur 
+```python
+ list()
+ ```
+```python 
+pays = list(("Sénégal", "France", "Canada")) 
+# ou encore
+lettres = list("python") # on obtiendra une liste avec des caractères ["p", "y", "t", "h", "o", "n"]
+# ou encore
+nombres = list(range(1, 6))  # on obtiendra une liste de nombres de 1 à 5
+```
+* Par compréhension: Les compréhensions de liste permettent de déclarer une liste de manière concise en une seule ligne, basée sur une logique conditionnelle ou une boucle.
+
+```python
+carres = [x**2 for x in range(10)] #  Liste des carrés des nombres de 0 à 9 
 ```
 
 ### **Accéder aux éléments d'une liste** :
