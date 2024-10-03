@@ -8,22 +8,14 @@ Une liste se déclare généralement en plaçant ses éléments entre crochets `
 ```python
 pays = ["Sénégal", "France", "Canada"]
 ```
-Il existe également d'autres moyens de déclarer une liste en Python:
-* Avec le constructeur 
-```python
- list()
- ```
+On peut également déclarer une liste en Python avec le constructeur  `list()` :
+
 ```python 
 pays = list(("Sénégal", "France", "Canada")) 
 # ou encore
 lettres = list("python") # on obtiendra une liste avec des caractères ["p", "y", "t", "h", "o", "n"]
 # ou encore
 nombres = list(range(1, 6))  # on obtiendra une liste de nombres de 1 à 5
-```
-* Par compréhension: Les compréhensions de liste permettent de déclarer une liste de manière concise en une seule ligne, basée sur une logique conditionnelle ou une boucle.
-
-```python
-carres = [x**2 for x in range(10)] #  Liste des carrés des nombres de 0 à 9 
 ```
 
 ### **Accéder aux éléments d'une liste** :
