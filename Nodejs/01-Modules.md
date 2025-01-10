@@ -13,13 +13,13 @@ Node.js propose un ensemble de modules intégrés que vous pouvez utiliser sans 
 Pour inclure un module, utilisez la fonction `require()` avec le nom du module :  
 
 ```javascript
-var http = require('http');
+let http = require('http');
 ```
 
 Ensuite, vous pouvez utiliser ce module dans votre application. Par exemple, pour créer un serveur HTTP :  
 
 ```javascript
-var http = require('http');
+let http = require('http');
 
 http.createServer(function (req, res) {
   res.writeHead(200, {'Content-Type': 'text/html'});
@@ -51,8 +51,8 @@ exports.myDateTime = function () {
 Pour utiliser le module que vous venez de créer, incluez-le dans un autre fichier Node.js :  
 
 ```javascript
-var http = require('http');
-var dt = require('./myfirstmodule');
+let http = require('http');
+let dt = require('./myfirstmodule');
 
 http.createServer(function (req, res) {
   res.writeHead(200, {'Content-Type': 'text/html'});
