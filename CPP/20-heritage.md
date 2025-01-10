@@ -1,6 +1,3 @@
-Voici une explication détaillée sur l'héritage en C++, avec des sous-titres et des exemples :
-
-```markdown
 # Héritage en C++
 
 L'héritage est un concept clé de la programmation orientée objet qui permet de créer une nouvelle classe basée sur une classe existante. La classe existante est appelée "classe de base" ou "classe parent", tandis que la nouvelle classe est appelée "classe dérivée" ou "classe enfant". L'héritage permet à la classe dérivée de réutiliser, d'étendre ou de modifier le comportement de la classe de base.
@@ -144,4 +141,4 @@ int main() {
 
     return 0;
 }
-```
+
