@@ -1,0 +1,62 @@
+# Utilisation de la méthode `delete()` dans MongoDB
+
+La méthode `delete()` est utilisée pour supprimer des documents d'une collection MongoDB. Vous pouvez supprimer un ou plusieurs documents selon les critères de recherche que vous spécifiez.
+
+## Syntaxe de base de `delete()`
+
+La syntaxe de la méthode `delete()` est la suivante :
+
+```bash
+db.ma_collection.delete(<critères_de_recherche>)
+```
+
+- **`<critères_de_recherche>`** : Ce paramètre définit les conditions pour identifier les documents à supprimer.
+
+## Exemples de suppression de documents
+
+### 1. Supprimer un seul document
+La méthode `deleteOne()` permet de supprimer un seul document correspondant aux critères de recherche. Par exemple, pour supprimer un document où le nom est "Alice" :
+
+```bash
+db.ma_collection.deleteOne({ "nom": "Alice" })
+```
+
+Cette requête supprime le premier document trouvé avec le champ `"nom"` égal à `"Alice"`.
+
+### 2. Supprimer plusieurs documents
+La méthode `deleteMany()` permet de supprimer plusieurs documents correspondant aux critères de recherche. Par exemple, pour supprimer tous les documents où l'âge est inférieur à 30 :
+
+```bash
+db.ma_collection.deleteMany({ "age": { $lt: 30 } })
+```
+
+Cela supprime tous les documents de la collection où l'âge est inférieur à 30.
+
+### 3. Supprimer tous les documents
+Si vous souhaitez supprimer tous les documents d'une collection, vous pouvez utiliser `deleteMany()` avec un critère vide :
+
+```bash
+db.ma_collection.deleteMany({})
+```
+
+Cela supprimera tous les documents de la collection `ma_collection`.
+
+## Opérateurs de suppression
+
+MongoDB ne prend pas en charge des opérateurs spécifiques pour la suppression de documents comme dans le cas des mises à jour (par exemple `$set` ou `$inc`). Cependant, vous pouvez utiliser des critères complexes pour spécifier quels documents supprimer.
+
+### Exemple : Supprimer un document avec un critère complexe
+Pour supprimer un document où l'âge est supérieur à 30 et le statut est "actif", vous pouvez utiliser :
+
+```bash
+db.ma_collection.deleteOne({ "age": { $gt: 30 }, "status": "actif" })
+```
+
+### Exemple : Supprimer des documents avec une condition sur un tableau
+Si un document contient un tableau et que vous voulez supprimer un document où ce tableau contient un élément spécifique, vous pouvez utiliser un opérateur comme `$in` :
+
+```bash
+db.ma_collection.deleteMany({ "interests": { $in: ["sport", "lecture"] } })
+```
+
+Cela supprime tous les documents où le tableau `"interests"` contient les éléments `"sport"` ou `"lecture"`.
